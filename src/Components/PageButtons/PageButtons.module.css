@@ -1,0 +1,21 @@
+.Pagination {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pagination button {
+    width: 10rem;
+    height: 3rem;
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.Pagination select {
+    width: 5rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+}

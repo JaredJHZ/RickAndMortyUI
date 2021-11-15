@@ -1,0 +1,53 @@
+.Card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    height: 35%;
+    width: 23%;
+}
+
+.Medium {
+    height: 25%;
+    width: 21%;
+}
+
+.Small {
+    height: 15%;
+    width: 18%;
+}
+
+.Card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+
+.Card img {
+    width: 50%;
+    height: 100%;
+}
+
+.Card h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Card h2 {
+    font-size: 1.3rem;
+}
+
+.Small_Font {
+    font-size: 0.5rem !important;
+}
+
+.Small_Font h1,h2{
+    font-size: 1rem !important;
+    margin-top:0.1rem;
+}
+
+.Info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

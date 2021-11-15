@@ -1,0 +1,20 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Container ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Container ul li {
+    display: inline-flex;
+    margin: 5px;
+}

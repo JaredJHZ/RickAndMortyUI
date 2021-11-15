@@ -1,0 +1,23 @@
+.Container {
+    display: flex;
+    background: #E3E4E0;
+    padding: 0;
+}
+
+.Left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-flow: column;
+}
+
+.Right {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+}
